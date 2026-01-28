@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HXiGWX3uK+o=",
+  "success": true,
+  "projectFilePath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.deps.json
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.pdb
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.AssemblyInfoInputs.cache
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.AssemblyInfo.cs
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.csproj.CoreCompileInputs.cache
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.sourcelink.json
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\refint\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.pdb
+C:\EXAMEN_PROCOMER\EXAMEN\plantilla-be-crud-jwt\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ref\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.deps.json
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\bin\Debug\net8.0\ExamenProcomerBackend.Domain.pdb
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.AssemblyInfoInputs.cache
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.AssemblyInfo.cs
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.csproj.CoreCompileInputs.cache
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\refint\ExamenProcomerBackend.Domain.dll
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ExamenProcomerBackend.Domain.pdb
+C:\EXAMEN_PROCOMER\Practica Frey\Microoservicio1\src\ExamenProcomerBackend.Domain\obj\Debug\net8.0\ref\ExamenProcomerBackend.Domain.dll

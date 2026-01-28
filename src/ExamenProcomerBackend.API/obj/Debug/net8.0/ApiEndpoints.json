@@ -1,0 +1,644 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.AuthEndpoints",
+    "Method": "GenerateJwtToken",
+    "RelativePath": "api/auth/token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ExamenProcomerBackend.API.Endpoints.TokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Autenticaci\u00F3n"
+    ],
+    "EndpointName": "GenerateToken"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.CategoriasVehiculoEndpoints",
+    "Method": "ListarCategorias",
+    "RelativePath": "api/categorias-vehiculo/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categor\u00EDas de Veh\u00EDculos"
+    ],
+    "EndpointName": "ListarCategoriasVehiculo",
+    "Summary": "Listar todas las categor\u00EDas de veh\u00EDculos"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.CategoriasVehiculoEndpoints",
+    "Method": "CrearCategoria",
+    "RelativePath": "api/categorias-vehiculo/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.CategoriasVehiculo.Commands.CrearCategoriaVehiculoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categor\u00EDas de Veh\u00EDculos"
+    ],
+    "EndpointName": "CrearCategoriaVehiculo",
+    "Summary": "Crear una nueva categor\u00EDa de veh\u00EDculo"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.CategoriasVehiculoEndpoints",
+    "Method": "ObtenerCategoriaPorId",
+    "RelativePath": "api/categorias-vehiculo/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categor\u00EDas de Veh\u00EDculos"
+    ],
+    "EndpointName": "ObtenerCategoriaVehiculoPorId",
+    "Summary": "Obtener una categor\u00EDa de veh\u00EDculo por ID"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.CategoriasVehiculoEndpoints",
+    "Method": "ActualizarCategoria",
+    "RelativePath": "api/categorias-vehiculo/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.CategoriasVehiculo.Commands.ActualizarCategoriaVehiculoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categor\u00EDas de Veh\u00EDculos"
+    ],
+    "EndpointName": "ActualizarCategoriaVehiculo",
+    "Summary": "Actualizar una categor\u00EDa de veh\u00EDculo existente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.CategoriasVehiculoEndpoints",
+    "Method": "EliminarCategoria",
+    "RelativePath": "api/categorias-vehiculo/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categor\u00EDas de Veh\u00EDculos"
+    ],
+    "EndpointName": "EliminarCategoriaVehiculo",
+    "Summary": "Eliminar una categor\u00EDa de veh\u00EDculo"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "ListarClientes",
+    "RelativePath": "api/clientes/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "ListarClientes",
+    "Summary": "Listar todos los clientes"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "CrearCliente",
+    "RelativePath": "api/clientes/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Clientes.Commands.CrearClienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "CrearCliente",
+    "Summary": "Crear un nuevo cliente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "ObtenerClientePorId",
+    "RelativePath": "api/clientes/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "ObtenerClientePorId",
+    "Summary": "Obtener un cliente por ID"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "ActualizarCliente",
+    "RelativePath": "api/clientes/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Clientes.Commands.ActualizarClienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "ActualizarCliente",
+    "Summary": "Actualizar un cliente existente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "EliminarCliente",
+    "RelativePath": "api/clientes/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "EliminarCliente",
+    "Summary": "Eliminar un cliente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ClientesEndpoints",
+    "Method": "ObtenerClientePorCedula",
+    "RelativePath": "api/clientes/cedula/{numeroCedula}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroCedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Clientes"
+    ],
+    "EndpointName": "ObtenerClientePorCedula",
+    "Summary": "Obtener un cliente por n\u00FAmero de c\u00E9dula"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ExtrasEndpoints",
+    "Method": "ListarExtras",
+    "RelativePath": "api/extras/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Extras"
+    ],
+    "EndpointName": "ListarExtras",
+    "Summary": "Listar todos los extras"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ExtrasEndpoints",
+    "Method": "CrearExtra",
+    "RelativePath": "api/extras/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Extras.Commands.CrearExtraCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Extras"
+    ],
+    "EndpointName": "CrearExtra",
+    "Summary": "Crear un nuevo extra"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ExtrasEndpoints",
+    "Method": "ObtenerExtraPorId",
+    "RelativePath": "api/extras/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Extras"
+    ],
+    "EndpointName": "ObtenerExtraPorId",
+    "Summary": "Obtener un extra por ID"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ExtrasEndpoints",
+    "Method": "ActualizarExtra",
+    "RelativePath": "api/extras/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Extras.Commands.ActualizarExtraCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Extras"
+    ],
+    "EndpointName": "ActualizarExtra",
+    "Summary": "Actualizar un extra existente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.ExtrasEndpoints",
+    "Method": "EliminarExtra",
+    "RelativePath": "api/extras/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Extras"
+    ],
+    "EndpointName": "EliminarExtra",
+    "Summary": "Eliminar un extra"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "ListarVehiculos",
+    "RelativePath": "api/vehiculos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "ListarVehiculos",
+    "Summary": "Listar todos los veh\u00EDculos"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "CrearVehiculo",
+    "RelativePath": "api/vehiculos/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Vehiculos.Commands.CrearVehiculoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "CrearVehiculo",
+    "Summary": "Crear un nuevo veh\u00EDculo"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "ObtenerVehiculoPorId",
+    "RelativePath": "api/vehiculos/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "ObtenerVehiculoPorId",
+    "Summary": "Obtener un veh\u00EDculo por ID"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "ActualizarVehiculo",
+    "RelativePath": "api/vehiculos/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "ExamenProcomerBackend.Application.Vehiculos.Commands.ActualizarVehiculoCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "ActualizarVehiculo",
+    "Summary": "Actualizar un veh\u00EDculo existente"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "EliminarVehiculo",
+    "RelativePath": "api/vehiculos/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "EliminarVehiculo",
+    "Summary": "Eliminar un veh\u00EDculo"
+  },
+  {
+    "ContainingType": "ExamenProcomerBackend.API.Endpoints.VehiculosEndpoints",
+    "Method": "ListarVehiculosPorCategoria",
+    "RelativePath": "api/vehiculos/categoria/{idCategoria:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Veh\u00EDculos"
+    ],
+    "EndpointName": "ListarVehiculosPorCategoria",
+    "Summary": "Listar veh\u00EDculos por categor\u00EDa"
+  }
+]

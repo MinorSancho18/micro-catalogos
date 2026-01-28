@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.API\\ExamenProcomerBackend.API.csproj": {}
+  },
+  "projects": {
+    "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.API\\ExamenProcomerBackend.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.API\\ExamenProcomerBackend.API.csproj",
+        "projectName": "ExamenProcomerBackend.API",
+        "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.API\\ExamenProcomerBackend.API.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/1iGLM3LTUxrjTvewSIFoX3GNgYLD9EnxcJr4zSfsLNejFXGSYe/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj"
+              },
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj"
+              },
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\ExamenProcomerBackend.Infrastructure.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\ExamenProcomerBackend.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj",
+        "projectName": "ExamenProcomerBackend.Application",
+        "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/1iGLM3LTUxrjTvewSIFoX3GNgYLD9EnxcJr4zSfsLNejFXGSYe/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj",
+        "projectName": "ExamenProcomerBackend.Domain",
+        "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/1iGLM3LTUxrjTvewSIFoX3GNgYLD9EnxcJr4zSfsLNejFXGSYe/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\ExamenProcomerBackend.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\ExamenProcomerBackend.Infrastructure.csproj",
+        "projectName": "ExamenProcomerBackend.Infrastructure",
+        "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\ExamenProcomerBackend.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/1iGLM3LTUxrjTvewSIFoX3GNgYLD9EnxcJr4zSfsLNejFXGSYe/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Application\\ExamenProcomerBackend.Application.csproj"
+              },
+              "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj": {
+                "projectPath": "C:\\EXAMEN_PROCOMER\\Practica Frey\\Microoservicio1\\src\\ExamenProcomerBackend.Domain\\ExamenProcomerBackend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.42, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

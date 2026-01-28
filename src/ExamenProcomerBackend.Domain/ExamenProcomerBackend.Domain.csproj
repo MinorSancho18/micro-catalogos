@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ExamenProcomerBackend.Domain</AssemblyName>
+  </PropertyGroup>
+</Project>

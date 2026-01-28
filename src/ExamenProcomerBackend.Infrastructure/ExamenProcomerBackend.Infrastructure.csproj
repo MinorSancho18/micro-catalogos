@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ExamenProcomerBackend.Infrastructure</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="ExamenProcomerBackend.API" />
+    <InternalsVisibleTo Include="ExamenProcomerBackend.Infrastructure.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenProcomerBackend.Application\ExamenProcomerBackend.Application.csproj" />
+    <ProjectReference Include="..\ExamenProcomerBackend.Domain\ExamenProcomerBackend.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.42" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.23" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ExamenProcomerBackend.Application</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenProcomerBackend.Domain\ExamenProcomerBackend.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generos\DTOs\" />
+    <Folder Include="Generos\Handlers\" />
+    <Folder Include="Profesores\Commands\" />
+    <Folder Include="Profesores\DTOs\" />
+    <Folder Include="Profesores\Handlers\" />
+    <Folder Include="Profesores\Queries\" />
+    <Folder Include="Profesores\Validators\" />
+    <Folder Include="TiposCedula\DTOs\" />
+    <Folder Include="TiposCedula\Handlers\" />
+    <Folder Include="TiposCedula\Queries\" />
+  </ItemGroup>
+</Project>
